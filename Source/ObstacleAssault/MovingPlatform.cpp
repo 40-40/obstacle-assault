@@ -16,9 +16,7 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 
-    APlusB = InputA + InputB;
-
-    APlusBFloat = InputFloatA + InputFloatB;
+    MyX = MyVector.X;
 }
 
 // Called every frame
